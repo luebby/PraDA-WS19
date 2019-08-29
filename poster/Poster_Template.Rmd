@@ -1,0 +1,37 @@
+---
+main_topsize: 0.2 #percent coverage of the poster
+main_bottomsize: 0.1
+
+logoright_name: "fom-logo.png"
+primary_colour: "#00998a"
+secondary_colour: "#c3d7d5"
+accent_colour: "#4cb7ad"
+
+
+title: Der Name des Posters
+
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    highlight: espresso
+    number_sections: false
+
+    
+author: 
+  - name: Autor\*in 1
+  - name: Autor\*in 2
+  - name: Autor\*in 3
+  - name: Autor\*in 4
+  
+main_findings:
+  Wir haben ein tolles Modell gefunden.
+---
+
+# Aufgabenstellung
+    
+# Datenbeschreibung
+
+# Modellierung
+
+
